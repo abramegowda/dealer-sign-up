@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>DF64DB18-51C2-4FF0-8EA6-E41D8F5C3965</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24" rx="12"></rect>
+        <linearGradient x1="17.9393583%" y1="15.465716%" x2="83.1623559%" y2="85.2036559%" id="linearGradient-3">
+            <stop stop-color="#395DFA" offset="0%"></stop>
+            <stop stop-color="#544CED" offset="21.6534791%"></stop>
+            <stop stop-color="#903ACD" offset="44.7643908%"></stop>
+            <stop stop-color="#D53592" offset="68.3389075%"></stop>
+            <stop stop-color="#F4306D" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-20.8%" y="-20.8%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2.12389381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-124.0%" y="-124.0%" width="347.9%" height="347.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="10.619469" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-72.0%" y="-72.0%" width="244.0%" height="244.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="5.09734513" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-76.9%" y="-76.9%" width="253.8%" height="253.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="4.51842302" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-97.3%" y="-97.3%" width="294.6%" height="294.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="5.09734513" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-226.8%" y="-226.8%" width="553.6%" height="553.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="10.2759224" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Outlook-Template" transform="translate(-421.000000, -1823.000000)">
+            <g id="Social_inactive-Copy" transform="translate(306.000000, 1823.000000)">
+                <g id="Instagram" transform="translate(115.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="round-shape" fill="#C5C5C5" xlink:href="#path-1"></use>
+                    <circle id="bottom" fill="url(#linearGradient-3)" filter="url(#filter-4)" mask="url(#mask-2)" cx="12.3185841" cy="11.4690265" r="15.2920354"></circle>
+                    <circle id="Oval-12" fill="#F8443E" filter="url(#filter-5)" mask="url(#mask-2)" cx="7.96460177" cy="21.5575221" r="12.8495575"></circle>
+                    <circle id="Oval-13" fill="#F86737" filter="url(#filter-6)" mask="url(#mask-2)" cx="7.6460177" cy="23.7876106" r="10.619469"></circle>
+                    <circle id="Oval-13" fill="#F88330" filter="url(#filter-7)" mask="url(#mask-2)" cx="7.75221239" cy="23.8938053" r="8.81415929"></circle>
+                    <circle id="Oval-13" fill="#FBBB45" filter="url(#filter-8)" mask="url(#mask-2)" cx="7.85840708" cy="24.8495575" r="7.85840708"></circle>
+                    <circle id="Oval-13" fill="#FBE18A" filter="url(#filter-9)" mask="url(#mask-2)" cx="7.6460177" cy="25.9115044" r="6.79646018"></circle>
+                    <path d="M14.3261109,6 C16.3519454,6 18,7.64807602 18,9.67393675 L18,14.3260632 C18,16.351924 16.3519454,18 14.3261109,18 L9.67388905,18 C7.64805463,18 6,16.351924 6,14.3260632 L6,9.67393675 C6,7.64807602 7.64805463,6 9.67388905,6 L14.3261109,6 Z M14.3261109,6.89842655 L9.67388905,6.89842655 C8.14360825,6.89842655 6.89857067,8.14363608 6.89857067,9.67393675 L6.89857067,14.3260632 C6.89857067,15.8563639 8.14360825,17.1014177 9.67388905,17.1014177 L14.3261109,17.1014177 C15.8563917,17.1014177 17.1014293,15.8563639 17.1014293,14.3260632 L17.1014293,9.67393675 C17.1014293,8.14363608 15.8563917,6.89842655 14.3261109,6.89842655 Z M11.999923,9 C13.654161,9 15,10.3458045 15,12 C15,13.6541955 13.654161,15 11.999923,15 C10.345839,15 9,13.6541955 9,12 C9,10.3458045 10.345839,9 11.999923,9 Z M11.999923,9.90931486 C10.8473145,9.90931486 9.90949216,10.8472671 9.90949216,12 C9.90949216,13.1527329 10.8473145,14.0905312 11.999923,14.0905312 C13.1528394,14.0905312 14.0906618,13.1527329 14.0906618,12 C14.0906618,10.8472671 13.1528394,9.90931486 11.999923,9.90931486 Z M14.9999014,8 C15.5521829,8 16,8.4476641 16,9 C16,9.5523359 15.5521829,10 14.9999014,10 C14.4478171,10 14,9.5523359 14,9 C14,8.4476641 14.4478171,8 14.9999014,8 Z" id="Combined-Shape" fill="#FFFFFE" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
