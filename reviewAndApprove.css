@@ -1,0 +1,419 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+* {
+  outline: none;
+}
+
+@font-face {
+  font-family: InterSemiBold;
+  src: url(fonts-Inter/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: InterBold;
+  src: url(fonts-Inter/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: InterRegular;
+  src: url(fonts-Inter/Inter-Regular.ttf);
+}
+
+.max-width-container {
+  max-width: 63%;
+  margin: 0 auto;
+}
+
+.section-left {
+  width: 40%;
+  float: left;
+  padding-right: 45.5px;
+  border-right: 1px solid #ededed;
+}
+
+.sub-section-left {
+  padding-left: 20px;
+}
+
+.section-right {
+  width: 48%;
+  float: left;
+  padding-left: 45.5px;
+}
+
+.logo-green {
+  width: 100%;
+  max-width: 152px;
+  margin-bottom: 66.9px;
+  margin-top: 48px;
+}
+
+.group-img {
+  width: 100%;
+  margin-bottom: 58.7px;
+}
+
+.heading-copy {
+  font-family: InterSemiBold;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: -1px;
+  color: #000000;
+  margin-bottom: 89px;
+}
+
+.arc-logo {
+  max-width: 60%;
+  width: 100%;
+  margin-bottom: 81.6px;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.dealship-logo {
+  max-width: 90%;
+  width: 100%;
+  margin-bottom: 72px;
+  margin-top: 16px;
+}
+
+.tab {
+  display: flex;
+  margin-bottom: 54px;
+  border-bottom: 1px solid #ededed;
+}
+
+.tab-icons {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+.tab button {
+  background: none;
+  border: none;
+  font-family: InterSemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 0;
+  padding-bottom: 20px;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.tab button:first-child {
+    margin-right: 40px;
+}
+
+.tab button.active {
+    border-bottom: 2px solid #05deba;
+}
+
+.invoice-set-one,
+.invoice-set-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-list div {
+  display: flow-root;
+  margin-bottom: 16px;
+}
+
+.item-list div:last-child {
+  margin-bottom: 20px;
+}
+
+.item-total {
+  margin-bottom: 48px;
+}
+
+.item-total div {
+  padding-top: 20px;
+  border-top: 1px solid #ededed;
+}
+
+.invoice-set-two .item-total div {
+  padding-top: 20px;
+}
+
+.invoice-set-two .item-total {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+
+.item-list p,
+.item-list span {
+  font-family: InterRegular;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #4d515b;
+  float: left;
+}
+
+.item-list span {
+  float: right;
+}
+
+.item-total p {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  color: #4d515b;
+  float: left;
+}
+
+.item-total span {
+  font-family: InterSemiBold;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: -1px;
+  color: #15161f;
+  float: right;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  top: auto;
+  background-color: #2f313c;
+  width: 100%;
+  padding: 37px 0 35px;
+}
+
+.appendix-div {
+  margin-bottom: 80px;
+}
+
+.appendix-div p {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4d515b;
+  float: left;
+}
+
+.appendix-div a {
+  border-radius: 30px;
+  background-color: #2f313c;
+  padding: 8px 24px;
+  text-decoration: none;
+  float: right;
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.copy-div {
+  float: left;
+}
+
+.button-div {
+  float: right;
+}
+
+.copy-div p:first-child {
+  font-family: InterSemiBold;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.copy-div p:last-child {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #d2d2d2;
+}
+
+.button-div a,
+.button-div a:hover {
+  border-radius: 30px;
+  background-color: #05deba;
+  padding: 14px 32px;
+  font-family: InterSemiBold;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #15161f;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-div a img {
+  margin-left: 16px;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -moz-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    -webkit-transform: translateX(15px);
+    transform: translateX(15px);
+  }
+  60% {
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 1s;
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
+}
+
+@media only screen and (max-width: 767px) {
+  .max-width-container {
+    max-width: 90%;
+  }
+
+  .logo-green {
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: 55.9px;
+    margin-top: 35px;
+  }
+
+  .group-img {
+    width: 90%;
+    margin-bottom: 35px;
+  }
+  .heading-copy {
+    font-size: 20px;
+    margin-bottom: 45px;
+  }
+
+  .arc-logo {
+    margin-bottom: 35px;
+  }
+  .section-left {
+    padding-right: 0;
+    border: 0;
+    float: initial;
+    width: 100%;
+  }
+
+  .section-right {
+    padding-left: 0;
+    float: initial;
+    width: 100%;
+  }
+
+  .copy-div {
+    display: none;
+  }
+  .appendix-div {
+    margin-bottom: 200px;
+  }
+  .dealship-logo {
+    max-width: 100%;
+    margin-bottom: 45px;
+  }
+
+  .appendix-div p {
+    font-size: 10px;
+  }
+
+  .item-list p,
+  .item-list span {
+    font-size: 14px;
+  }
+
+  .item-total span {
+    font-size: 20px;
+  }
+
+  .tab-icons {
+    height: 30px;
+    width: 30px;
+  }
+
+  .tab button {
+    font-size: 12px;
+  }
+
+  .tab button:first-child {
+    margin-right: 10px;
+}
+
+  .button-div a,
+  .button-div a:hover {
+    padding: 12px 22px;
+  }
+  .fixed-footer {
+    padding: 25px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1339px) {
+  .max-width-container {
+    max-width: 90%;
+  }
+
+  .section-left {
+    width: 36%;
+  }
+
+  .arc-logo {
+    max-width: 80%;
+  }
+
+  .tab button:first-child {
+    margin-right: 20px;
+}
+}
