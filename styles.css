@@ -44,11 +44,12 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .logo img {
   width: 100%;
-  max-width: 25%;
+  max-width: 120px;
 }
 
 .center-align-content {
@@ -256,33 +257,46 @@ a {
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -moz-transform: translateX(0);
-      -ms-transform: translateX(0);
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-    }
-    40% {
-      -moz-transform: translateX(15px);
-      -ms-transform: translateX(15px);
-      -webkit-transform: translateX(15px);
-      transform: translateX(15px);
-    }
-    60% {
-      -moz-transform: translateX(-10px);
-      -ms-transform: translateX(-10px);
-      -webkit-transform: translateX(-10px);
-      transform: translateX(-10px);
-    }
+  0%,
+  20%,
+  30% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  
-  .bounce {
-    -moz-animation: bounce 1s;
-    -webkit-animation: bounce 1s;
-    animation: bounce 1s;
+  40% {
+    -moz-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    -webkit-transform: translateX(15px);
+    transform: translateX(15px);
   }
+  60% {
+    -moz-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  70%,
+  80%,
+  100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
 
 @media only screen and (max-width: 767px) {
+  .logo, .footer {
+    text-align: center;
+  }
   .max-width-outer {
     padding: 48px 30px;
   }
@@ -294,7 +308,11 @@ a {
   }
   .sign-up-button,
   .sign-up-button:hover {
-    width: 215px;
+    width: auto;
+    padding: 8px 16px;
+    height: auto;
+    font-size: 14px;
+    max-width: 165px;
   }
   .contact-container {
     display: flex;
@@ -325,8 +343,8 @@ a {
     margin-bottom: 10px;
   }
   .logo img {
-    max-width: 50%;
-    width: 40%;
+    max-width: 120px;
+    width: 100%;
   }
   .thumbs-up-img {
     max-width: 65%;

@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="daterangepicker.css" />
     <link rel="stylesheet" type="text/css" href="reviewAndApprove.css" />
     <title>REVIEW AND APPROVE PAGE</title>
   </head>
@@ -24,7 +25,8 @@
                   alt="image"
                 />
                 <p class="heading-copy">
-                  We are thrilled for the opportunity to be your partner!
+                  We are thrilled for the opportunity<br class="only-mobile" />
+                  to be your partner!
                 </p>
                 <img
                   class="arc-logo"
@@ -37,7 +39,7 @@
           <div class="section-right">
             <img
               class="dealship-logo"
-              src="images/reviewAndApprove/bowman-chevrolet-1@3x.png"
+              src="images/reviewAndApprove/group-194@3x.png"
               alt="dealership-logo"
             />
             <div>
@@ -107,7 +109,21 @@
                 </div>
               </div>
 
-              <div id="dates-tab" class="tabcontent"></div>
+              <div id="dates-tab" class="tabcontent">
+                <p class="calendar-text">
+                  Select the date range from the earliest to the latest you can
+                  implement tekion
+                </p>
+                <div>
+                  <div id="date-range-container"></div>
+                  <input
+                    style="visibility: hidden;"
+                    type="text"
+                    name="datepicker"
+                    id="datepicker"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -116,8 +132,11 @@
         <div class="max-width-container">
           <div class="footer-content">
             <div class="copy-div">
-              <p>Ready to get started with us? Great!</p>
-              <p>We are ready to get started to. It’s really easy to do!</p>
+              <p class="only-mobile first-copy">Ready to get started?</p>
+              <p class="only-dt first-copy">Ready to get started with us? Great!</p>
+              <p class="only-dt">
+                We are ready to get started to. It’s really easy to do!
+              </p>
             </div>
             <div class="button-div">
               <a class="accept-continue-btn" href="#"
@@ -128,7 +147,9 @@
         </div>
       </section>
     </section>
+    <script src="moment.js"></script>
     <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="jquery-date-range-picker-master/jquery.daterangepicker.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
